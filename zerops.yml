@@ -36,4 +36,4 @@ zerops:
 
     # ==== how to run your application ====
     run:
-      start: npm run preview
+      start: npm start
