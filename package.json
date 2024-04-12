@@ -5,8 +5,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
-		"start": "vite start",
-		"preview": "vite preview",
+		"start": "node ./build",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
@@ -19,4 +18,4 @@
 		"vite": "^4.2.0"
 	},
 	"type": "module"
-}
+} 
