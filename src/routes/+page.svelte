@@ -32,13 +32,11 @@
 	<div class="flex justify-center pt-14">
 		<Steps />
 	</div>
-      <p class="text-center mt-10 text-[#939393]">
-        Powered by{" "}
-        <a href="https://zerops.io" target="_blank">
-          Zerops
-        </a>
-      </p>
-	  <Register />
+	<p class="text-center mt-10 text-[#939393]">
+		Powered by{' '}
+		<a href="https://zerops.io" target="_blank"> Zerops </a>
+	</p>
+	<Register />
 </div>
 
 <style>

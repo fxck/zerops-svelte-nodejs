@@ -18,12 +18,12 @@ A nodejs Svelte example for Zerops which you can deploy in 2 simple steps.
 
 ```yaml
 project:
-   name: zerops-remix
+   name: zerops-svelte
 
   services:
-   - hostname: remixnode
+   - hostname: sveltenode
     type: nodejs@18
-    buildFromGit: https://github.com/fxck/zerops-remix-nodejs
+    buildFromGit: https://github.com/fxck/zerops-svelte-nodejs
     ports:
       - port: 3000
         httpSupport: true
