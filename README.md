@@ -1,38 +1,34 @@
-# create-svelte
+# Zerops + Svelte - Nodejs
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+![Header Image](/header.png)
 
-## Creating a project
+A nodejs Svelte example for Zerops which you can deploy in 2 simple steps.
 
-If you're seeing this, you've probably already done this step. Congrats!
+**Features**
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- Svelte
+- Tailwind
+- Prettier
 
-# create a new project in my-app
-npm create svelte@latest my-app
+## Instructions to Deploy on Zerops
+
+1. Navigate to the Zerops Dashboard and locate the import project button on the sidebar.
+
+2. Paste the Project Yaml
+
+```yaml
+project:
+   name: zerops-remix
+
+  services:
+   - hostname: remixnode
+    type: nodejs@18
+    buildFromGit: https://github.com/fxck/zerops-remix-nodejs
+    ports:
+      - port: 3000
+        httpSupport: true
+    enableSubdomainAccess: true
+    minContainers: 1
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+If you still find yourself stuck in the process join our [Discord community](https://discord.gg/5ptAqtpyvh).
