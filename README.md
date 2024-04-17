@@ -2,7 +2,7 @@
 
 ![Header Image](/header.png)
 
-A nodejs Svelte example for Zerops which you can deploy in 2 simple steps.
+A Nodejs Svelte example for Zerops which you can deploy in 2 simple steps.
 
 **Features**
 

@@ -17,7 +17,7 @@
 			>
 		</h1>
 		<p class="font-semibold max-w-[800px] mx-auto text-2xl">
-			A Static Remix example for Zerops which you can deploy in 2 simple steps (Technically, we
+			A Nodejs Sveltekit example for Zerops which you can deploy in 2 simple steps (Technically, we
 			don't count Ctrl + V... but who's checking?). Scroll down to learn how to deploy.
 		</p>
 		<div class="mt-10 flex text-lg flex-row justify-center items-center space-x-5">

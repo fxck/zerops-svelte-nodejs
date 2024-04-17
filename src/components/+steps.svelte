@@ -38,7 +38,7 @@
 						Copy the YAML code mentioned here and paste it to import this example.
 					</p>
 					<p class="font-medium">
-						Alternatively, you can clone zerops-solid-static to your GitHub profile and then replace
+						Alternatively, you can clone zerops-svelte-nodejs to your GitHub profile and then replace
 						the repository URL in the buildFromGit parameter.
 					</p>
 				</div>
