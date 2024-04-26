@@ -5,7 +5,7 @@
 
   services:
    - hostname: sveltenode
-    type: nodejs@18
+    type: nodejs@20
     buildFromGit: https://github.com/fxck/zerops-svelte-nodejs
     ports:
       - port: 3000
@@ -17,33 +17,32 @@
 <div>
 	<hr class="py-6 border-[#f4f4f4]" />
 	<h2 class="text-center text-4xl font-semibold text-[#333]">Instructions</h2>
-	<div class="grid grid-cols-1 xl:grid-cols-2 font-light gap-5 xl:gap-10 pt-4 px-36">
+	<div class="grid grid-cols md:grid-cols-2 font-light gap-5 md:gap-10 pt-4">
 		<div class="bg-[#F7F7F7] rounded-md p-8 my-8 flex items-center">
 			<div class="max-w-lg space-y-10">
 				<div>
 					<h3 class="font-semibold text-lg">Step 1</h3>
-					<p class="font-medium">
-						Go to{' '}
-						<a href="https://app.zerops.io/dashboard/projects" target="_blank">
-							Zerops Dashboard
-						</a>{' '}
-						and Click on the 'Import Project' button on the sidebar. (Not a user?{' '}
-						<a href="https://zerops.io" target="_blank"> Register now </a>
-						)
-					</p>
-				</div>
-				<div>
-					<h3 class="font-semibold text-lg">Step 2</h3>
-					<p class="font-medium">
-						Copy the YAML code mentioned here and paste it to import this example.
-					</p>
-					<p class="font-medium">
-						Alternatively, you can clone zerops-svelte-nodejs to your GitHub profile and then replace
-						the repository URL in the buildFromGit parameter.
+					<!-- svelte-ignore a11y-media-has-caption -->
+					<video width="full" class="rounded-xl mt-3" autoplay loop>
+						<source src="import.mp4" type="video/mp4" />
+					</video>
+					<p class="font-medium mt-3">
+						<a href="https://zerops.io" target="_blank"> Create an account </a>{' '}
+						and locate the import button as shown in the video.
 					</p>
 				</div>
 			</div>
 		</div>
-		<Code code={zeropsyaml} />
+		<div class="flex flex-col">
+			<div class="bg-[#F7F7F7] rounded-md p-8 my-8 flex items-center">
+				<div class="max-w-lg space-y-10">
+					<div>
+						<h3 class="font-semibold text-lg">Step 2</h3>
+						<p class="font-medium">Copy and paste the YAML code and confirm</p>
+					</div>
+				</div>
+			</div>
+			<Code code={zeropsyaml} />
+		</div>
 	</div>
 </div>
