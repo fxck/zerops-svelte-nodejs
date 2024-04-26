@@ -18,8 +18,8 @@ zerops:
 
       # build your application
       buildCommands:
-        - npm i
-        - npm run build
+        - pnpm i
+        - pnpm run build
 
       # select which files / folders to deploy
       # after the build succesfully finished
@@ -32,8 +32,8 @@ zerops:
       # to cache for the next use
       cache:
         - node_modules
-        - package-lock.json
+        - pnpm-lock.json
 
     # ==== how to run your application ====
     run:
-      start: npm start
+      start: pnpm start

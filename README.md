@@ -12,7 +12,7 @@ A Nodejs Svelte example for Zerops which you can deploy in 2 simple steps.
 
 ## Instructions to Deploy on Zerops
 
-1. Navigate to the Zerops Dashboard and locate the import project button on the sidebar.
+1. [Create an account](https://app.zerops.io/registration) and locate the "Import project" button in the top left menu.
 
 2. Paste the Project Yaml
 
@@ -22,7 +22,7 @@ project:
 
   services:
    - hostname: sveltenode
-    type: nodejs@18
+    type: nodejs@20
     buildFromGit: https://github.com/fxck/zerops-svelte-nodejs
     ports:
       - port: 3000

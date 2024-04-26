@@ -5,7 +5,7 @@ export default {
 		extend: {
 			fontFamily: {
 				opensans: ['Open Sans', 'sans-serif']
-			},
+			}
 		}
 	},
 	plugins: []
