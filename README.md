@@ -18,10 +18,9 @@ A Nodejs Svelte example for Zerops which you can deploy in 2 simple steps.
 
 ```yaml
 project:
-   name: zerops-svelte
-
-  services:
-   - hostname: sveltenode
+  name: zerops-svelte
+services:
+  - hostname: sveltenode
     type: nodejs@20
     buildFromGit: https://github.com/fxck/zerops-svelte-nodejs
     ports:
