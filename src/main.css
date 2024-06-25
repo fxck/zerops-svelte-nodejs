@@ -75,30 +75,30 @@ body {
   padding-bottom: 0.75rem;
   font-weight: 500;
   color: #ddd;
+  transition: 300ms;
 }
 
 .primarybutton:hover {
-  transition: 300ms;
-  background-color: #BD6044;
+  background-color: #D16849;
 }
 
 .discordbutton {
-  background-color: #BD6044;
+  background-color: #D16849;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   font-weight: 500;
   color: #ddd;
+  transition: 300ms;
 }
 
 .discordbutton:hover {
-  transition: 300ms;
   background-color: #E5704E;
 }
 
 .zeropsbutton {
-  background-color: #954F3B;
+  background-color: #BD6044;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 0.75rem;
@@ -108,7 +108,7 @@ body {
   transition: 300ms;
 }
 .zeropsbutton:hover {
-  background-color: #BD6044;
+  background-color: #D16849;
 }
 
 .gradient-text {
