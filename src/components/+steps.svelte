@@ -23,9 +23,9 @@
 				<div>
 					<h3 class="font-semibold text-lg">Step 1</h3>
 					<!-- svelte-ignore a11y-media-has-caption -->
-					<video width="full" class="rounded-xl mt-3" autoplay loop>
+					<!-- <video width="full" class="rounded-xl mt-3" autoplay loop>
 						<source src="import.mp4" type="video/mp4" />
-					</video>
+					</video> -->
 					<p class="font-medium mt-3">
 						<a href="https://zerops.io" target="_blank"> Create an account </a>{' '}
 						and locate the import button as shown in the video.
