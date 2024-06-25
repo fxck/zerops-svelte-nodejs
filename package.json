@@ -1,5 +1,5 @@
 {
-	"name": "zerops-svelte-nodejs",
+	"name": "recipe-svelte-nodejs",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -9,19 +9,19 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-node": "5.0.1",
-		"@sveltejs/kit": "2.5.7",
-		"autoprefixer": "10.4.19",
-		"postcss": "8.4.38",
-		"prettier": "3.2.5",
-		"prettier-plugin-svelte": "3.2.3",
-		"svelte": "4.2.5",
-		"tailwindcss": "3.4.3",
-		"typescript": "4.9.5",
-		"vite": "5.2.10"
+		"@sveltejs/adapter-node": "^5.2.0",
+		"@sveltejs/kit": "^2.5.17",
+		"autoprefixer": "^10.4.19",
+		"postcss": "^8.4.38",
+		"prettier": "^3.3.2",
+		"prettier-plugin-svelte": "^3.2.5",
+		"svelte": "^4.2.18",
+		"tailwindcss": "^3.4.4",
+		"typescript": "^5.5.2",
+		"vite": "^5.3.1"
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/vite-plugin-svelte": "3.1.0"
+		"@sveltejs/vite-plugin-svelte": "^3.1.0"
 	}
 }
