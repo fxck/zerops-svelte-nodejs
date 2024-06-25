@@ -3,15 +3,16 @@
 	import ZeropsLogo from '../lib/assets/zerops.svg';
 	import Steps from '../components/+steps.svelte';
 	import Register from '../components/+register.svelte';
+	import "../main.css";
 </script>
 
-<div class=" justify-center py-10">
+<div class="justify-center py-10">
 	<div class="text-center py-20">
 		<div class="flex flex-row justify-center space-x-32">
 			<img src={SvelteLogo} width="100px" draggable="false" alt="download icon" />
 			<img src={ZeropsLogo} width="100px" draggable="false" alt="download icon" />
 		</div>
-		<h1 class="text-6xl font-extrabold space-y-3 mt-6 mb-6 leading-normal mt-8">
+		<h1 class="text-6xl font-extrabold space-y-3 mt-6 mb-6 leading-normal">
 			Say Hello to <span class="block"
 				><span class="text-[#FF3E00]">SvelteKit</span>{' '}+ Zerops</span
 			>
